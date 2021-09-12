@@ -1,0 +1,24 @@
+{
+  "name": "js-native-blog",
+  "version": "1.0.0",
+  "description": "js native blog",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript"
+  ],
+  "author": "Andrey Shilkin",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  }
+}
